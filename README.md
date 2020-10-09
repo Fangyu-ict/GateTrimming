@@ -1,4 +1,4 @@
-##Gate Trimming: 
+### Gate Trimming: 
 Implementation with PyTorch.
 ### Requirements
 - Python == 3.6.6
