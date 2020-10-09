@@ -1,4 +1,4 @@
-### Gate Trimming: One Shot Global Pruning Method for Efficient Convolutional Neural Networks
+##Gate Trimming: 
 Implementation with PyTorch.
 ### Requirements
 - Python == 3.6.6
@@ -8,7 +8,7 @@ Implementation with PyTorch.
 - TensorboardX == 2.1
 
 ### Pre-trained (Baseline) Models 
-The pre-trained models with log files can be found in [Google Drive](https://drive.google.com/drive/folders/1w_Max8L5ICJZSrlha8UybHfICik-iX95?usp=sharing).
+The pre-trained models with log files can be found in [Google Drive](https://drive.google.com/drive/folders/1Vgt5a2w-FvhQ1hhhfPKVl4s0e4bp-7TE?usp=sharing).
 Please put the pre-trained models into the fold ``baseline``.
 ### Prune the VGG16 on CIFAR-10
 ```shell
