@@ -1,4 +1,4 @@
-### Gate Trimming: 
+### Gate Trimming: One Shot Global Pruning Method for Efficient Convolutional Neural Networks
 Implementation with PyTorch.
 ### Requirements
 - Python == 3.6.6
