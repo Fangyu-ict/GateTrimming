@@ -1,4 +1,4 @@
-##Gate Trimming: 
+## GATE TRIMMING: ONE-SHOT GLOBAL PRUNING FOR EFFICIENT CONVOLUTIONAL NEURAL NETWORKS
 Implementation with PyTorch.
 ### Requirements
 - Python == 3.6.6
