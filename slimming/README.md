@@ -1,5 +1,5 @@
 # Network Slimming
-This is our implementations of Network Slimming. The requirements are the same as GT.
+This is our implementations of Network Slimming. The requirements are the same as Gate Trimming.
 
 ## Train with Sparsity
 
