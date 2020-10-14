@@ -1,4 +1,5 @@
-# Network Slimming (Pytorch)
+# Network Slimming
+This is our implementations of Network Slimming. The requirements are the same as GT.
 
 ## Train with Sparsity
 
