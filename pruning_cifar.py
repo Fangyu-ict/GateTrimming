@@ -494,7 +494,7 @@ class Mask:
         self.mask_bn_index_b = [(x+2) for x in range(0, last_index, 3)]
 
         if 'resnet' in args.arch:
-            self.constrain_list = [(x+1) for x in range(0, last_index, 6)]
+            self.constrain_list = [x for x in range(0, last_index, 6)]
             self.skip_list = []
 
             for x in self.skip_list:
@@ -660,8 +660,8 @@ class Mask:
 
             if self.mat[layer-1].sum() != kernel_length:
                 if layer in self.constrain_list:
-                    # mat_2ndconv[layer][filter] = 0
-                    # prunedFilters = self.prune_2nd_conv(filter, mat_2ndconv, prunedFilters)
+                    mat_2ndconv[layer][filter] = 0
+                    prunedFilters = self.prune_2nd_conv(filter, mat_2ndconv, prunedFilters)
                     pass
                 else:
                     prunedFilters = self.set_mask(layer, filter, prunedFilters)
